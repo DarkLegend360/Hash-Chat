@@ -1,0 +1,20 @@
+{
+  "name": "hash-chat-server",
+  "version": "1.0.0",
+  "description": "Hash Chat Server",
+  "main": "app/App.js",
+  "author": "Goutham Sidhardha",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app/App.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1",
+    "socket.io": "^4.5.2",
+    "uuid": "^9.0.0"
+  }
+}
